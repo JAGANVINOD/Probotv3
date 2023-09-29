@@ -13,7 +13,7 @@ def is_enabled(value, default):
 # PyroClient Setup 
 API_ID = int(environ['5370426'])
 API_HASH = environ['9411fec0e459d57458962a3c0ee78de5']
-BOT_TOKEN = environ['6594947156:AAH97s8QYR1uCZ4Ul6hD_LNXmjZaqpLc4bE']
+BOT_TOKEN = environ['6594947156:AAGvYCaH6o2TOh2hR5KoXlvZL-Z_LoqLF4Y']
 
 # Bot settings
 WEBHOOK = bool(environ.get("WEBHOOK", True)) # for web support on/off
@@ -57,7 +57,7 @@ SHORT_API = environ.get("SHORT_API")
 
 # Others
 IMDB_DELET_TIME = int(environ.get('IMDB_DELET_TIME', "300"))
-LOG_CHANNEL = int(environ.get('https://t.me/+0bTxCsnt-wQzZTc1',))
+LOG_CHANNEL = int(environ.get('https://t.me/+0bTxCsnt-wQzZTc1'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'moveandroll')
 P_TTI_SHOW_OFF = is_enabled(environ.get('P_TTI_SHOW_OFF', "True"), True)
 PM_IMDB = is_enabled(environ.get('PM_IMDB', "True"), True)
